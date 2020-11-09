@@ -35,7 +35,7 @@ class UrlGenerator
         $paramsString = '?';
 
         foreach ($params as $key => $param) {
-            $paramsString .= "{$key}={$param}";
+            $paramsString .= "{$key}=" . urlencode($param);
             $paramsString .= ArrayHelper::arrayLastKey($params) === $key ? '' : '&';
         }
 
