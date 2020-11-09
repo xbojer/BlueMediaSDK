@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "autoload": {
       "psr-4": {
-        "xbojer\\BlueMediaSDK\\": "src/"
+        "michalrokita\\BlueMediaSDK\\": "src/"
       }
     },
     "autoload-dev": {
